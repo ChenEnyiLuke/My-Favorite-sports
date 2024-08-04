@@ -1,0 +1,79 @@
+body {
+    background-image: url(../img/1046.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .profile{
+    background-color: crimson;
+    text-align: center;
+}
+header {
+    background-color:crimson;
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid blue
+    
+}
+
+h2 {
+    color: black;
+    background-color:gold;
+    text-align:center;
+    font-size: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+ol {
+        background-color: blue;
+    }
+
+li {
+        background-color: gold;
+    }
+
+#navbar{
+        background-color: cr;
+        border-style: solid;
+        border-color:gold;
+        border-collapse: collapse;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+#navbar th{
+        border-style: solid blue;
+        padding: 5px;
+}
+
+.navbar {
+    background-color: crimson;
+    border: solid gold;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+footer {
+    background-color:blue;
+    color: crimson;
+    font-size: 12px;
+    border: 3px solid red;
+    padding-left: 5px;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: blue;
+    color:gold;
+    padding: 5px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    box-shadow: 5px 5px 10px darkblue;
+}
+.active{
+    background-color:blue;
+}
